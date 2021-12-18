@@ -11,6 +11,7 @@ public class StringUtils {
     }
 
     //userDao  ==> setUserDao
+    //test
     public static String getSetterMethodByFieldName(String fiedName) {
         String methodName = "set" + fiedName.substring(0, 1).toUpperCase() + fiedName.substring(1);
         return methodName;
